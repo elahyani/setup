@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Nexa", "Open Sans", sans-serif;
+    background-color: #fff;
+    font-size: 13px;
+    color: #6a6c6f;
+    margin: 0;
+    padding: 0;
+}
