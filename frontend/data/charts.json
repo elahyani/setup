@@ -1,0 +1,1008 @@
+[
+  {
+    "coords": {
+      "gridColumn": [1, 6],
+      "gridRow": [6, 14]
+    },
+    "type": "bar",
+    "removeOnMobile": 1,
+    "title": {
+      "text": "Main Title 1",
+      "subtext": "Sub Title",
+      "left": "center",
+      "top": "auto",
+      "itemGap": 5,
+      "padding": [3, 0, 10, 0],
+      "textStyle": {
+        "fontSize": 18
+      },
+      "subtextStyle": {
+        "fontSize": 12
+      }
+    },
+    "legend": {
+      "show": true,
+      "orient": "horizontal",
+      "align": "auto",
+      "itemGap": 10,
+      "left": "center",
+      "top": "bottom",
+      "width": "auto"
+    },
+    "tooltip": {
+      "show": true,
+      "trigger": "item",
+      "axisPointer": {
+        "type": "shadow"
+      }
+    },
+    "dataset": {
+      "dimensions": ["month", "A", "B", "C"],
+      "source": [
+        { "month": "jan", "A": 10, "B": 10, "C": 10 },
+        { "month": "fib", "A": 200, "B": 332, "C": 130 },
+        { "month": "mar", "A": 150, "B": 301, "C": 130 },
+        { "month": "apr", "A": 80, "B": 334, "C": 80 },
+        { "month": "may", "A": 70, "B": 390, "C": 120 }
+      ]
+    },
+    "grid": {
+      "show": false,
+      "left": "10%",
+      "top": "60",
+      "right": "10%",
+      "bottom": "60",
+      "containLabel": false
+    },
+    "xAxis": {
+      "type": "category",
+      "show": true,
+      "position": "bottom",
+      "offset": 0,
+      "boundaryGap": 10,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "yAxis": {
+      "type": "value",
+      "show": true,
+      "position": "left",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splitLine": {
+        "show": true,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "dataZoom": {
+      "start": 0,
+      "type": "inside"
+    },
+    "series": [
+      {
+        "type": "bar",
+        "name": "bar1 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": true
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "A"
+        }
+      },
+      {
+        "type": "bar",
+        "name": "bar2 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": true
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "B"
+        }
+      },
+      {
+        "type": "bar",
+        "name": "bar3 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": true
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "C"
+        }
+      }
+    ]
+  },
+  {
+    "coords": {
+      "gridColumn": [5, 9],
+      "gridRow": [1, 6]
+    },
+    "type": "line",
+    "removeOnMobile": 0,
+    "title": {
+      "text": "Ventes",
+      "subtext": "Sub Title",
+      "left": "center",
+      "top": "auto",
+      "itemGap": 5,
+      "padding": [3, 0, 10, 0],
+      "textStyle": {
+        "fontSize": 18
+      },
+      "subtextStyle": {
+        "fontSize": 12
+      }
+    },
+    "legend": {
+      "show": true,
+      "orient": "horizontal",
+      "align": "auto",
+      "itemGap": 10,
+      "left": "center",
+      "top": "bottom",
+      "width": "auto"
+    },
+    "tooltip": {
+      "show": true,
+      "trigger": "axis",
+      "axisPointer": {
+        "type": "line"
+      }
+    },
+    "dataset": {
+      "dimensions": ["year", "A", "B", "C"],
+      "source": [
+        { "year": "2018", "A": 10, "B": 10, "C": 10 },
+        { "year": "2019", "A": 200, "B": 332, "C": 130 },
+        { "year": "2020", "A": 150, "B": 301, "C": 130 },
+        { "year": "2021", "A": 80, "B": 334, "C": 80 },
+        { "year": "2022", "A": 70, "B": 390, "C": 120 }
+      ]
+    },
+    "grid": {
+      "show": false,
+      "left": "10%",
+      "top": "60",
+      "right": "10%",
+      "bottom": "60",
+      "containLabel": false
+    },
+    "xAxis": {
+      "type": "category",
+      "show": true,
+      "position": "bottom",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "yAxis": {
+      "type": "value",
+      "show": true,
+      "position": "left",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splitLine": {
+        "show": true,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "dataZoom": {
+      "start": 0,
+      "type": "inside"
+    },
+    "series": [
+      {
+        "type": "line",
+        "name": "Ventes",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "A"
+        }
+      },
+      {
+        "type": "line",
+        "name": "Achats",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "B"
+        }
+      },
+      {
+        "type": "line",
+        "name": "Depenses",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "C"
+        }
+      }
+    ]
+  },
+  {
+    "coords": {
+      "gridColumn": [6, 10],
+      "gridRow": [6, 9]
+    },
+    "type": "line",
+    "removeOnMobile": 1,
+    "title": {
+      "text": "Main Title 3",
+      "subtext": "Sub Title",
+      "left": "center",
+      "top": "auto",
+      "itemGap": 5,
+      "padding": [3, 0, 10, 0],
+      "textStyle": {
+        "fontSize": 18
+      },
+      "subtextStyle": {
+        "fontSize": 12
+      }
+    },
+    "legend": {
+      "show": true,
+      "orient": "horizontal",
+      "align": "auto",
+      "itemGap": 10,
+      "left": "center",
+      "top": "bottom",
+      "width": "auto"
+    },
+    "tooltip": {
+      "show": true,
+      "trigger": "item",
+      "axisPointer": {
+        "type": "shadow"
+      }
+    },
+    "dataset": {
+      "dimensions": ["year", "A", "B", "C"],
+      "source": [
+        { "year": "2018", "A": 10, "B": 10, "C": 10 },
+        { "year": "2019", "A": 200, "B": 332, "C": 130 },
+        { "year": "2020", "A": 150, "B": 301, "C": 130 },
+        { "year": "2021", "A": 80, "B": 334, "C": 80 },
+        { "year": "2022", "A": 70, "B": 390, "C": 120 }
+      ]
+    },
+    "grid": {
+      "show": false,
+      "left": "10%",
+      "top": "60",
+      "right": "10%",
+      "bottom": "60",
+      "containLabel": false
+    },
+    "xAxis": {
+      "type": "category",
+      "show": true,
+      "position": "bottom",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "yAxis": {
+      "type": "value",
+      "show": true,
+      "position": "left",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splitLine": {
+        "show": true,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "dataZoom": {
+      "start": 0,
+      "type": "inside"
+    },
+    "series": [
+      {
+        "type": "line",
+        "name": "line1 hhh",
+        "showBackground": true,
+        "areaStyle": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "B"
+        }
+      },
+      {
+        "type": "line",
+        "name": "line2 hhh",
+        "showBackground": true,
+        "areaStyle": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "A"
+        }
+      },
+      {
+        "type": "line",
+        "name": "line3 hhh",
+        "showBackground": true,
+        "areaStyle": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "year",
+          "y": "C"
+        }
+      }
+    ]
+  },
+  {
+    "coords": {
+      "gridColumn": [1, 5],
+      "gridRow": [1, 6]
+    },
+    "type": "bar",
+    "removeOnMobile": 1,
+    "title": {
+      "text": "Main Title 4",
+      "subtext": "Sub Title",
+      "left": "left",
+      "top": "auto",
+      "itemGap": 2,
+      "padding": [3, 0, 10, 0],
+      "textStyle": {
+        "fontSize": 18
+      },
+      "subtextStyle": {
+        "fontSize": 12
+      }
+    },
+    "legend": {
+      "show": true,
+      "orient": "horizontal",
+      "align": "auto",
+      "itemGap": 10,
+      "left": "right",
+      "top": "auto",
+      "width": "auto"
+    },
+    "tooltip": {
+      "show": true,
+      "trigger": "axis",
+      "axisPointer": {
+        "type": "shadow"
+      }
+    },
+    "dataset": {
+      "dimensions": ["year", "A", "B", "C"],
+      "source": [
+        { "year": "2018", "A": 10, "B": 10, "C": 10 },
+        { "year": "2019", "A": 200, "B": 332, "C": 130 },
+        { "year": "2020", "A": 150, "B": 301, "C": 130 },
+        { "year": "2021", "A": 80, "B": 334, "C": 80 },
+        { "year": "2022", "A": 70, "B": 390, "C": 120 }
+      ]
+    },
+    "grid": {
+      "show": false,
+      "left": "3%",
+      "top": "28%",
+      "right": "4%",
+      "bottom": "3%",
+      "containLabel": true
+    },
+    "xAxis": {
+      "type": "value",
+      "show": true,
+      "position": "bottom",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "yAxis": {
+      "type": "category",
+      "show": true,
+      "position": "left",
+      "offset": 6,
+      "boundaryGap": 10,
+      "axisLabel": {
+        "rotate": -45
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "dataZoom": {
+      "start": 0,
+      "type": "inside"
+    },
+    "series": [
+      {
+        "type": "bar",
+        "name": "bar1 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "y": "year",
+          "x": "A"
+        }
+      },
+      {
+        "type": "bar",
+        "name": "bar2 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "y": "year",
+          "x": "B"
+        }
+      },
+      {
+        "type": "bar",
+        "name": "bar3 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "y": "year",
+          "x": "C"
+        }
+      }
+    ]
+  },
+  {
+    "coords": {
+      "gridColumn": [10, 14],
+      "gridRow": [6, 14]
+    },
+    "type": "bar",
+    "removeOnMobile": 0,
+    "title": {
+      "text": "Main Title 5",
+      "subtext": "Sub Title",
+      "left": "center",
+      "top": "auto",
+      "itemGap": 5,
+      "padding": [3, 0, 10, 0],
+      "textStyle": {
+        "fontSize": 18
+      },
+      "subtextStyle": {
+        "fontSize": 12
+      }
+    },
+    "legend": {
+      "show": true,
+      "orient": "horizontal",
+      "align": "auto",
+      "itemGap": 10,
+      "left": "center",
+      "top": "bottom",
+      "width": "auto"
+    },
+    "tooltip": {
+      "show": true,
+      "trigger": "item",
+      "axisPointer": {
+        "type": "shadow"
+      }
+    },
+    "dataset": {
+      "dimensions": ["year", "A", "B", "C"],
+      "source": [
+        { "year": "2018", "A": 10, "B": 10, "C": 10 },
+        { "year": "2019", "A": 200, "B": 332, "C": 130 },
+        { "year": "2020", "A": 150, "B": 301, "C": 130 },
+        { "year": "2021", "A": 80, "B": 334, "C": 80 },
+        { "year": "2022", "A": 70, "B": 390, "C": 120 }
+      ]
+    },
+    "grid": {
+      "show": false,
+      "left": "10%",
+      "top": "60",
+      "right": "10%",
+      "bottom": "60",
+      "containLabel": false
+    },
+    "xAxis": {
+      "type": "category",
+      "show": true,
+      "position": "bottom",
+      "offset": 0,
+      "boundaryGap": 10,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "yAxis": {
+      "type": "value",
+      "show": true,
+      "position": "left",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splitLine": {
+        "show": true,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "dataZoom": {
+      "start": 0,
+      "type": "inside"
+    },
+    "series": [
+      {
+        "type": "bar",
+        "name": "bar1 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": true
+        },
+        "radius": "",
+        "stack": "total",
+        "emphasis": {
+          "focus": "series"
+        },
+        "encode": {
+          "x": "year",
+          "y": "B"
+        }
+      },
+      {
+        "type": "bar",
+        "name": "bar2 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": true
+        },
+        "radius": "",
+        "stack": "total",
+        "emphasis": {
+          "focus": "series"
+        },
+        "encode": {
+          "x": "year",
+          "y": "C"
+        }
+      },
+      {
+        "type": "bar",
+        "name": "bar3 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": true
+        },
+        "radius": "",
+        "stack": "total",
+        "emphasis": {
+          "focus": "series"
+        },
+        "encode": {
+          "x": "year",
+          "y": "A"
+        }
+      }
+    ]
+  },
+  {
+    "coords": {
+      "gridColumn": [9, 14],
+      "gridRow": [1, 6]
+    },
+    "type": "pie",
+    "removeOnMobile": 0,
+    "title": {
+      "text": "Main Title 6",
+      "subtext": "Sub Title",
+      "left": "center",
+      "top": "auto",
+      "itemGap": 5,
+      "padding": [3, 0, 10, 0],
+      "textStyle": {
+        "fontSize": 18
+      },
+      "subtextStyle": {
+        "fontSize": 12
+      }
+    },
+    "dataset": {
+      "dimensions": ["amount", "product"],
+      "source": [
+        { "amount": 58212, "product": "Matcha Latte" },
+        { "amount": 78254, "product": "Milk Tea" },
+        { "amount": 41032, "product": "Cheese Cocoa" },
+        { "amount": 12755, "product": "Cheese Brownie" },
+        { "amount": 20145, "product": "Matcha Cocoa" },
+        { "amount": 79146, "product": "Tea" },
+        { "amount": 91852, "product": "Orange Juice" },
+        { "amount": 101852, "product": "Lemon Juice" },
+        { "amount": 20112, "product": "Walnut Brownie" }
+      ]
+    },
+    "tooltip": {
+      "show": true,
+      "trigger": "item",
+      "axisPointer": {
+        "type": "shadow"
+      }
+    },
+    "legend": {
+      "show": true,
+      "orient": "horizontal",
+      "align": "auto",
+      "itemGap": 5,
+      "left": "center",
+      "top": "bottom",
+      "width": "auto"
+    },
+    "grid": {
+      "show": false,
+      "left": "10%",
+      "top": "60",
+      "right": "10%",
+      "bottom": "60",
+      "containLabel": false
+    },
+    "xAxis": {
+      "type": "category",
+      "show": false,
+      "position": "bottom",
+      "offset": 0,
+      "boundaryGap": 10,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "yAxis": {
+      "type": "value",
+      "show": false,
+      "position": "left",
+      "offset": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splitLine": {
+        "show": true,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "dataZoom": {
+      "start": 0,
+      "type": "inside"
+    },
+    "series": [
+      {
+        "type": "pie",
+        "name": "2019",
+        "showBackground": false,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": true
+        },
+        "radius": "50%",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        }
+      }
+    ]
+  },
+  {
+    "coords": {
+      "gridColumn": [6, 10],
+      "gridRow": [9, 14]
+    },
+    "type": "bar",
+    "removeOnMobile": 0,
+    "title": {
+      "text": "Main Title 7",
+      "subtext": "Sub Title",
+      "left": "left",
+      "top": "auto",
+      "itemGap": 5,
+      "padding": [3, 0, 10, 0],
+      "textStyle": {
+        "fontSize": 18
+      },
+      "subtextStyle": {
+        "fontSize": 12
+      }
+    },
+    "legend": {
+      "show": true,
+      "orient": "horizontal",
+      "align": "auto",
+      "itemGap": 10,
+      "left": "right",
+      "top": "top",
+      "width": "auto"
+    },
+    "tooltip": {
+      "trigger": "axis",
+      "axisPointer": {
+        "type": "shadow"
+      }
+    },
+    "dataset": {
+      "dimensions": ["amount", "product"],
+      "source": [
+        { "amount": 58212, "product": "Matcha Latte" },
+        { "amount": 78254, "product": "Milk Tea" },
+        { "amount": 41032, "product": "Cheese Cocoa" },
+        { "amount": 12755, "product": "Cheese Brownie" },
+        { "amount": 20145, "product": "Matcha Cocoa" },
+        { "amount": 79146, "product": "Tea" },
+        { "amount": 91852, "product": "Orange Juice" },
+        { "amount": 101852, "product": "Lemon Juice" },
+        { "amount": 20112, "product": "Walnut Brownie" }
+      ]
+    },
+    "grid": {
+      "show": false,
+      "left": "4%",
+      "top": "23%",
+      "right": "11%",
+      "bottom": "10",
+      "containLabel": true
+    },
+    "xAxis": {
+      "type": "category",
+      "show": true,
+      "position": "bottom",
+      "offset": 0,
+      "boundaryGap": 10,
+      "axisLabel": {
+        "rotate": -45
+      },
+      "splieLine": {
+        "show": false,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "yAxis": {
+      "type": "value",
+      "show": true,
+      "position": "left",
+      "offset": 0,
+      "boundaryGap": 0,
+      "axisLabel": {
+        "rotate": 0
+      },
+      "splitLine": {
+        "show": true,
+        "interval": 0
+      },
+      "name": ""
+    },
+    "dataZoom": {
+      "start": 0,
+      "type": "inside"
+    },
+    "series": [
+      {
+        "type": "bar",
+        "name": "bar1 hhh",
+        "showBackground": true,
+        "backgroundStyle": {
+          "color": "rgba(180, 180, 180, 0.2)"
+        },
+        "itemStyle": {},
+        "label": {
+          "show": false
+        },
+        "radius": "",
+        "stack": "",
+        "emphasis": {
+          "focus": "none"
+        },
+        "encode": {
+          "x": "product",
+          "y": "amount"
+        }
+      }
+    ]
+  }
+]
