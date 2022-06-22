@@ -5,8 +5,10 @@ import { useState } from "react";
 import LoginSideImage from "../utils/LoginSideImage";
 import ErrorAlert from "../utils/ErrorAlert";
 import { FormInput, FormCheckbox, FormSubmit } from "../utils/FormInputs";
+import { useRouter } from "next/router";
 
 const LoginForm: FC = () => {
+  const router = useRouter();
   const [userEmail, setUserEmail] = useState("");
   const [userPassword, setUserPassword] = useState("");
   const [isRemember, setIsRemember] = useState(false);
@@ -51,10 +53,7 @@ const LoginForm: FC = () => {
         });
         return;
       }
-      alert(`${userEmail} is logged in!`);
-      console.log(
-        `email: ${userEmail}\npassword: ${userPassword}\nremember: ${isRemember}`
-      );
+      router.push("/admin");
     }
 
     setUserEmail("");

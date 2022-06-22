@@ -1,11 +1,11 @@
-import type { NextPage } from "next";
+import type { FC } from "react";
 import CHARTS_OPTIONS from "../../data/charts.json";
-import DynamicChart from "../../components/charts/Chart";
+import DynamicChart from "../charts/Chart";
 
-const Dahsboard: NextPage = () => {
+const Dahsboard: FC = () => {
   return (
     <div className="p-8 bg-gray-100 w-full h-full">
-      <div className="flex flex-wrap justify-center lg:grid lg:grid-cols-12 lg:grid-rows-12 w-full h-full lg:h-screen gap-2">
+      <div className="flex flex-wrap justify-center lg:grid lg:grid-cols-12 lg:grid-rows-12 h-full lg:h-screen gap-2">
         {CHARTS_OPTIONS.map((option, index) => {
           return (
             <div
