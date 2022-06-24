@@ -16,13 +16,16 @@ export const icons = {
 export const sidebarItems = [
   {
     text: "Tableau De Bord",
-    // icon: icons.DASHBOARD_ICON,
-    icon: "https://appli.hsabati.com/assets/images/img_fac/dashboard.png",
+    icon: (
+      <i className={`${"content-[url(" + icons.DASHBOARD_ICON + ")]"}`}></i>
+    ),
     routerTo: routes.ADMIN,
   },
   {
     text: "CRM",
-    icon: icons.CRM_ICON,
+    icon: (
+      <i className="content-[url(https://appli.hsabati.com/assets/images/img_fac/CRM.png)]"></i>
+    ),
     routerTo: routes.CLIENTS,
   },
   // {

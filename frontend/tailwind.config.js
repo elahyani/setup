@@ -11,4 +11,9 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: [
+    {
+      pattern: /./ 
+    },
+  ] 
 };

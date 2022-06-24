@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 interface ListItemProps {
   text: string;
-  icon: string;
+  icon: React.ReactNode;
   routerTo: string;
 }
 
@@ -19,7 +19,7 @@ const SingleItem: FC<ListItemProps> = ({ text, icon, routerTo }) => {
       } w-[80px] md:w-[120px] h-[80px] md:h-[90px] flex justify-center items-center text-white py-4 hover:cursor-pointer hover:bg-[#004458] hover:text-white hover:brightness-200 transition duration-300`}
     >
       <div className="flex flex-col items-center">
-        <i className={`content-[url(${icon})]`}></i>
+        {icon}
         <p className="mt-2 hidden md:block">{text}</p>
       </div>
     </li>
